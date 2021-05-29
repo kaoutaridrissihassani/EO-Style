@@ -9,7 +9,7 @@ a.my-logo{display:flex;justify-content:center;padding:10px;background-color:#2f3
 .menu{text-decoration:none}
 .text{color:#353b48;padding:8px 12px;position:absolute;bottom:8px;width:max-content;text-align:center;background-color:#f2f2f2;font-size:30px;letter-spacing:2px;text-transform:uppercase;font-weight:900}
 .mySlides img{width:100%}
-.my-section{color:#fff;max-width:1024px;margin:30px;padding:0 20px}
+.my-section{color:#fff;max-width:1024px;margin:30px;padding:0 20px;margin-left: auto;margin-right: auto;}
 .section-title{text-transform:uppercase;letter-spacing:2px;margin:0;max-width:100%;color:#353b48}
 .countdown{font-family:"poppins",sans-serif;margin:0;background-image:url(../img/count-down-img.jpg);min-height:80vh;display:flex;flex-direction:column;background-position:center center;background-size:cover;align-items:center;justify-content:center}
 .cont{font-size:4rem;margin-top:0;color:#fff;text-align:center;background-color:#fff2;letter-spacing:3px;padding:15px}

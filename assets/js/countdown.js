@@ -4,13 +4,13 @@ const minutesEl=document.getElementById('minutes');
 const secondsEl=document.getElementById('seconds');
 
 
-const AidAlfitr="22 May 2021";
+const Arrival="26 May 2021";
 
 function countdown(){
-  const AidAlfitrDate=new Date(AidAlfitr);
+  const ArrivalDate=new Date(Arrival);
   const currentDate=new Date();
 
-  const totalseconds=new Date(AidAlfitrDate-currentDate)/1000;
+  const totalseconds=new Date(ArrivalDate-currentDate)/1000;
 
   const days=Math.floor(totalseconds/3600/24);
   const hours=Math.floor(totalseconds/3600%24);
